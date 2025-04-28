@@ -3,6 +3,6 @@
 
 // Write your JavaScript code.
 function Alerta() {
-    var numero = document.getElementById("Mensaje").textContent.value;
+    var numero = document.getElementById("Mensaje").value;
     alert("Mi nombre es Nicolas, mi hobbie es jugar videojuegos y el valor del campo de texto es: " + numero);
 }
