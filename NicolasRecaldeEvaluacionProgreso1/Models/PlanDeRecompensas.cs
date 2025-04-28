@@ -9,10 +9,11 @@ namespace NicolasRecaldeEvaluacionProgreso1.Models
         public int Id { get; set; }
         [Required]
         [MaxLength(50)]
-        public string Nombre { get; set; }
+        public string? Nombre { get; set; }
         public DateOnly FechaInicio { get; set; }
         public int PuntosAcumulados { get; set; }
-        [ForeignKey("Reserva")]
+
+        [ForeignKey("ReservaId")]
         public Reserva? Reserva { get; set; }
     }
 }

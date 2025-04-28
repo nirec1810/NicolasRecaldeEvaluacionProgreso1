@@ -15,4 +15,6 @@ using NicolasRecaldeEvaluacionProgreso1.Models;
         public DbSet<NicolasRecaldeEvaluacionProgreso1.Models.Clientes> Clientes { get; set; } = default!;
 
 public DbSet<NicolasRecaldeEvaluacionProgreso1.Models.Reserva> Reserva { get; set; } = default!;
+
+public DbSet<NicolasRecaldeEvaluacionProgreso1.Models.Plan_de_recompensas> Plan_de_recompensas { get; set; } = default!;
     }
