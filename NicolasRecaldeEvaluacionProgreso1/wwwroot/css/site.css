@@ -20,3 +20,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.meme {
+    position: center;
+    height: 500px;
+    width: 400px;
+}
