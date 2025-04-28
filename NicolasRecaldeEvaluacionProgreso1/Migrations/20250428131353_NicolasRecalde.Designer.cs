@@ -32,7 +32,7 @@ namespace NicolasRecaldeEvaluacionProgreso1.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Edad")
+                    b.Property<int>("Cedula")
                         .HasColumnType("int");
 
                     b.Property<bool>("EsMayorEdad")
